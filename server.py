@@ -30,6 +30,8 @@ for shape in shape_dictionaries['features']:
 
 with open('widget.html', 'r') as opened:
     homepage = opened.read()
+    actual_url = os.getenv('RENDER_EXTERNAL_URL')
+    homepage = homepage.replace('placeholder_url', actual_url)
 
 def parse_pdf():
     """Most of the esoteric lines here are about ignoring districts with 2 pages of information
