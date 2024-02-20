@@ -14,6 +14,7 @@ census_geocode_url =  'https://geocoding.geo.census.gov/geocoder/locations/oneli
 
 #online_pdf_location = 'https://www.nmhealthysoil.org/wp-content/uploads/2022/05/NMACD_Directory.pdf'
 online_pdf_location = 'https://www.nmhealthysoil.org/wp-content/uploads/2023/02/NMACD-2023-Directory-Rev-2-8-2023.pdf'
+online_pdf_location = 'https://github.com/Zebreu/waterdistricts/files/14342469/NMACD.2024.Directory.-.Rev-.2-15-24.pdf'
 filepath = 'NMACD_Directory.pdf'
 
 urllib.request.urlretrieve(online_pdf_location, filepath)
